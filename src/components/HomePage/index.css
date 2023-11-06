@@ -1,0 +1,18 @@
+/* write your css code */
+.bg-container {
+  display: flex;
+  width: 1, 440px;
+  height: 102px;
+  padding: 25px, 20px, 25px, 20px;
+  justify-content: space-between;
+  background-color: #ffe475;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .bg-container {
+    background-color: white;
+  }
+}
